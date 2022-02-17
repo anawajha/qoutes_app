@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lottieNoInternet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:visibility="gone">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_3FGZxC.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_no_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/animationView"
+        android:text="No internet connection"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/tv_no_internet"
+        android:text="@string/retry"
+        android:textColor="@color/teal_500"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

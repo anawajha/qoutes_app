@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Quotes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2A2438</item>
+        <item name="colorPrimaryVariant">#352F44</item>
+        <item name="colorOnPrimary">#5C5470</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#2A2438</item>
+        <item name="colorSecondaryVariant">#352F44</item>
+        <item name="colorOnSecondary">#DBD8E3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+<!--        <item name="background">#5C5470</item>-->
+        <item name="fontFamily">@font/dubai_medium</item>
+        <item name="background_">#5C5470</item>
+        <item name="textColor_">@color/textColor</item>
+        <item name="cardBackgroundColor_">#2A2438</item>
+        <item name="color">@color/white</item>
+        <item name="splashBackground_">#5C5470</item>
+    </style>
+</resources>

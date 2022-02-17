@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784028177162",
+    "project_id": "quotes-anawajha",
+    "storage_bucket": "quotes-anawajha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784028177162:android:7ad2ef5b2b2f57661e60f3",
+        "android_client_info": {
+          "package_name": "com.anawajha.quotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784028177162-p3rla6j1pqp3esi772k8e2b3tij932fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdRnMJ5zihJBAc2PNLirr3LNKT4hHnicQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784028177162-p3rla6j1pqp3esi772k8e2b3tij932fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

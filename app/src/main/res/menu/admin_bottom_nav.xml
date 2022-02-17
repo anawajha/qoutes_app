@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/a_mi_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/dashboard" />
+
+<!--    <item-->
+<!--        android:id="@+id/a_mi_analytics"-->
+<!--        android:icon="@drawable/ic_dashboard"-->
+<!--        android:title="analytics" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/a_mi_profile"-->
+<!--        android:icon="@drawable/ic_boy"-->
+<!--        android:title="profile" />-->
+
+</menu>

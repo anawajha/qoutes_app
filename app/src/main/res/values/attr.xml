@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dark_theme">
+        <attr name="background_" format="color"/>
+        <attr name="textColor_" format="color"/>
+        <attr name="cardBackgroundColor_" format="color"/>
+        <attr name="splashBackground_" format="color"/>
+    </declare-styleable>
+</resources>
